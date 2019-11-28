@@ -1,0 +1,21 @@
+für ungeordnete Listen (ul)
+disc, Standardwert gefüllter Kreis als Bullet-Zeichen
+circle, leerer Kreis als Bullet-Zeichen
+square, quadratisches Bullet-Zeichen
+none, kein Bullet-Zeichen
+inherit, Bullet-Zeichen des Elternelements
+für geordnete Listen (ol)
+decimal Nummerierung 1., 2., 3., 4. usw.
+decimal-leading-zero, Nummerierung 01., 02., 03., 04. usw.
+lower-roman, Nummerierung i., ii., iii., iv. usw.
+upper-roman, Nummerierung I., II., III., IV. usw.
+lower-alpha, Nummerierung a., b., c., d. usw.
+lower-latin, ebenso
+upper-alpha, Nummerierung A., B., C., D. usw.
+upper-latin, ebenso
+none, keine Nummerierung
+inherit, Nummerierung des Elternelements
+Durch das Attribut start im Starttag einer geordneten Liste können Sie die Nummerierung beeinflussen; das Setzen des reversed-Attributs bewirkt eine Umkehrung der Zählrichtung.
+
+Außerdem gibt es Nummerierungen in vielen verschiedenen Sprachen wie z.B. hebräisch, chinesisch usw.
+
