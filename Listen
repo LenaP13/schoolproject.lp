@@ -4,6 +4,7 @@ circle, leerer Kreis als Bullet-Zeichen
 square, quadratisches Bullet-Zeichen
 none, kein Bullet-Zeichen
 inherit, Bullet-Zeichen des Elternelements
+
 für geordnete Listen (ol)
 decimal Nummerierung 1., 2., 3., 4. usw.
 decimal-leading-zero, Nummerierung 01., 02., 03., 04. usw.
@@ -15,7 +16,15 @@ upper-alpha, Nummerierung A., B., C., D. usw.
 upper-latin, ebenso
 none, keine Nummerierung
 inherit, Nummerierung des Elternelements
-Durch das Attribut start im Starttag einer geordneten Liste können Sie die Nummerierung beeinflussen; das Setzen des reversed-Attributs bewirkt eine Umkehrung der Zählrichtung.
 
-Außerdem gibt es Nummerierungen in vielen verschiedenen Sprachen wie z.B. hebräisch, chinesisch usw.
-
+z.B.:
+{list-style-type: circle;}
+ {list-style-type: square;}
+{list-style-type: upper-roman;}
+ {list-style-type: lower-alpha;}
+ 
+ <ul style="list-style-type: circle; >
+<li>Probieren geht<br>über Studieren</li>
+<li>Liebe geht<br>über Triebe</li>
+<li>Tante geht<br>über Kante</li>
+</ul>
